@@ -1,5 +1,5 @@
 {
-    "name": "dec/base_controller",
+    "name": "design_crystals/base_controller",
     "description": "Provides the basic functionalities of a resource controller out-of-the-box.",
     "type": "library",
     "require-dev": {
@@ -8,7 +8,7 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "design-crystals",
+            "name": "Design Crystals",
             "email": "dc.designcrystals@gmail.com"
         }
     ],
