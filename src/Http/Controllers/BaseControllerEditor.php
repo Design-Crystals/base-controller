@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Base\Http\Controllers;
+namespace DesignCrystals\BaseController\Http\Controllers;
 
 use App\ControllerEditor;
 use Illuminate\Support\Str;

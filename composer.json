@@ -1,5 +1,5 @@
 {
-    "name": "design_crystals/base_controller",
+    "name": "designcrystals/basecontroller",
     "description": "Provides the basic functionalities of a resource controller out-of-the-box.",
     "type": "library",
     "require-dev": {
@@ -13,5 +13,25 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "DesignCrystals\\BaseController\\" : "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DesignCrystals\\BaseController\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DesignCrystals\\BaseController\\BaseControllerServiceProvider"
+            ],
+            "aliases": {
+                "Base": "DesignCrystals\\BaseController\\Facades\\Base"
+            }
+        }
+    }
 }

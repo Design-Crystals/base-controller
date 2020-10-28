@@ -1,16 +1,15 @@
 <?php
-namespace App\Base\Traits;
+namespace DesignCrystals\BaseController\Traits;
 
+use Illuminate\Support\Str;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Router;
-use Illuminate\Support\Str;
 
 /**
  * Holds base files
  */
 trait Base
 {
-    use PolicyActions;
 
     /**
      * Eloquent model

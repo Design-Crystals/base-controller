@@ -1,13 +1,13 @@
 <?php
 
-namespace App\Base\Http\Requests;
+namespace DesignCrystals\BaseController\Http\Requests;
 
 use Exception;
-use App\Base\Base;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Http\Request as MainRequest;
+use DesignCrystals\BaseController\Traits\Base;
 
 // class BaseRequest extends FormRequest
 class BaseRequest
@@ -29,7 +29,7 @@ class BaseRequest
     protected $base;
 
     /**
-     * Instatiate required classes
+     * Instantiate required classes
      *
      * @param Illuminate\Http\Request $mainRequest
      */

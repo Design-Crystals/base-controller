@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Base\Http\Requests;
+namespace DesignCrystals\BaseController\Http\Requests;
 
 /**
  * Holds all available validation rules

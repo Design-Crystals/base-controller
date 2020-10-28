@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Base\Traits;
+namespace DesignCrystals\BaseController\Traits;
 
 
 use Illuminate\Support\Str;

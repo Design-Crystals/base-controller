@@ -6,7 +6,7 @@
  * @see App\Base\Base for general management
  */
 
-namespace App\Base\Http\Controllers;
+namespace DesignCrystals\BaseController\Http\Controllers;
 
 use Exception;
 use App\Base\Base;

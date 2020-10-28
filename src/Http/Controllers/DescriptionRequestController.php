@@ -1,11 +1,12 @@
 <?php
 
-namespace App\Base\Http\Controllers;
+namespace DesignCrystals\BaseController\Http\Controllers;
 
 use Illuminate\Support\Str;
 // use Illuminate\Http\Request;
 use App\Traits\SubRelatedDelete;
 use App\Base\Http\Requests\Request;
+use DesignCrystals\BaseController\Http\Controllers\BaseController;
 
 class DescriptionRequestController extends BaseController
 {

@@ -4,9 +4,9 @@ namespace App\Base;
 
 use Exception;
 use Illuminate\Support\Str;
-use Illuminate\Routing\Router;
-use App\Base\Traits\GettersAndSetters;
 use Illuminate\Http\Request;
+use Illuminate\Routing\Router;
+use DesignCrystals\BaseController\Traits\GettersAndSetters;
 
 class Base
 {
