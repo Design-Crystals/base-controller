@@ -1,5 +1,16 @@
 # Base Controller
+
 Provides the basic functionalities of a resource controller out-of-the-box.
+
+
+[![Latest Stable Version](https://img.shields.io/packagist/v/phpunit/phpunit.svg?style=flat-square)](https://packagist.org/packages/phpunit/phpunit)
+[![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%207.3-8892BF.svg?style=flat-square)](https://php.net/)
+[![CI Status](https://github.com/sebastianbergmann/phpunit/workflows/CI/badge.svg?branch=master&event=push)](https://phpunit.de/build-status.html)
+[![Type Coverage](https://shepherd.dev/github/sebastianbergmann/phpunit/coverage.svg)](https://shepherd.dev/github/sebastianbergmann/phpunit)
+
+
+## IMPORTANT
+Please note that this package is still in the development phase and not ready to deploy.
 
 ## INSTALLATION
 composer require design_crystals/base_controller
